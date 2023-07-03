@@ -1,0 +1,21 @@
+.fc1{
+    display: flex;
+    padding: 50px;
+    background-color: black;
+    color:white;
+}
+.fcc4{
+    display: flex;
+}
+#lis{
+    display: flex;
+    color: black;
+    padding-left: 100px;
+}
+.fc1 div{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}

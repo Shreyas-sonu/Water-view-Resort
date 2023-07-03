@@ -1,0 +1,88 @@
+@import url(head.css);
+@import url(foot.css);
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+.sub{
+    min-height: 350px;
+    background: #fff;
+    padding: 80px 0;
+}
+#imgcap{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.zoom {
+        transition: transform .2s;
+        margin: 0 auto;
+ }
+#had{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 1200;
+    font-family: cursive;
+}
+.cap {
+    text-align: justify;
+    color: #222222;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+#cont2{
+    color: #fff;
+    background: url(water-img2.jpg) no-repeat scroll top center / cover;
+    width: 100%;
+    height: 30%;
+}
+.container{
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    font-size: 23px;
+    line-height: 40px;
+}
+#htq{
+    padding-top: 100px;
+    font-size: 50px;
+}
+table{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#t3{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .rr{
+    width: 380px;
+    border-radius: 30px;
+    /* transition: transform .2s; */
+    /* margin: 0 auto; */
+/* } */
+.rr:hover{
+    /* transform: scale(1.08);
+    border-radius:0px; */
+}
+.div-img{
+    width: 380px;
+    height:172px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.div-img > .rr{
+width: 100% !important;
+border-radius: 35px;
+transition: all 0.3s ease;
+}
+.rr:hover{
+    width: 100%;
+    border-radius: 0px;
+    transform: scale(1.2);
+   
+}
